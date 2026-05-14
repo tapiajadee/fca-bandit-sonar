@@ -1,0 +1,58 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+# Bytecode y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+# Reportes de Bandit
+bandit-report.html
+bandit-report.json
+bandit-report.txt
+bandit-report.xml
+# SonarQube / SonarScanner
+.scannerwork/
+.sonar/
+.sonarlint/
+# Cachés de testing y linting
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.cache/
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+# Logs
+*.log
+logs/
+# Bases de datos locales
+*.sqlite
+*.sqlite3
+*.db-journal
