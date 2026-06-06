@@ -1,0 +1,2 @@
+# Herramientas de seguridad / SAST para el laboratorio
+bandit[toml]==1.7.9
